@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="470dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="556dp"
+
+        android:text="LoginUP Activity"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="317dp" />
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="132dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="409dp"
+
+        android:text="username"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#33C828"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="283dp"
+
+        android:text="Password"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#3AE80A"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/lusern"
+        android:layout_width="246dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="403dp"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/lpass"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="276dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="169dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="113dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>
